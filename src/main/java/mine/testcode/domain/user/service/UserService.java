@@ -19,6 +19,16 @@ public class UserService {
         return userRepository.findByUserEmail(userEmail);
     }
 
+    public String getUserEmailByUserId(Long userId) {
+        try {
+            User user = userRepository.findById(userId)
+                    .orElseThrow(Exception::new);
+            return user.getUserEmail();
+        } catch (Exception e) {
+            return null;
+        }
+    }
+
     public void saveUser(CreateDto request) {
         User user = User.builder()
                 .userName(request.getUserName())

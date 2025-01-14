@@ -58,6 +58,8 @@ public class SecurityConfig {
 
                                 .requestMatchers("/ws").permitAll()
 
+                                .requestMatchers("/notify/**").authenticated()
+
                                 .anyRequest().authenticated()
                 )
 

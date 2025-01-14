@@ -22,4 +22,7 @@ server:
 
 jwt:
   secret: ${JWT_KEY}
-  expiration: 3600000 # 30 minutes in milliseconds
+  expiration: 3600000 # 30분 in milliseconds
+
+emitter :
+  expiration: 3600000 # 30분 in milliseconds
