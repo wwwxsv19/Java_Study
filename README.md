@@ -13,7 +13,7 @@ SSE(Server-Sent Event) 통신 기반 실시간 알림 구현 <br> <br>
 <br>
 
 ## 실행 방법
-OS : ```Window```
+OS : ```Window``` <br>
 build : ```Gradle (version: 8.10)```
 ```shell
 > git clone https://github.com/wwwxsv19/WebSocket_Study.git
