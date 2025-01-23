@@ -6,15 +6,20 @@ WebSocket STOMP 통신 기반 실시간 채팅 구현 <br>
 ### SSE 알림 구현
 SSE(Server-Sent Event) 통신 기반 실시간 알림 구현 <br> <br>
 
-#### 사용 기술 스택
-```Java``` & ```Spring Boot``` <br>
-```Mysql```
+<br> 
+
+## Tech Stack
+**Dev** : ```Java``` & ```Spring Boot``` <br>
+
+**DB** : ```Mysql``` <br>
+
+**OS** : ```Window``` <br>
+
+**build** : ```Gradle (version: 8.10)```
 
 <br>
 
-## 실행 방법
-OS : ```Window``` <br>
-build : ```Gradle (version: 8.10)```
+## How To Run
 ```shell
 > git clone https://github.com/wwwxsv19/WebSocket_Study.git
 ```
@@ -27,4 +32,4 @@ build : ```Gradle (version: 8.10)```
 
 <br>
 
-## 폴더 구조
+## Directory Structure
